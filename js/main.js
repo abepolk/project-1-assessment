@@ -14,6 +14,11 @@ const increment = (sign) => {
         console.error("Operation error");
     }
     $('h1').text(newVal.toString());
+    if (newVal < 0) {
+        $('h1').css('color', 'red');
+    } else {
+        $('h1').css('color', 'black');
+    }
 }
 
 $('#plus-button').on('click', function(event) {
