@@ -25,21 +25,26 @@ h1 {
 }
 #input-row {
     margin: 5%;
-    font-size: 60px;
 }
 .button, #interval-input {
-    height: 60px;
-    border-radius: 5px;
-    border: gray solid 3px;
+    height: 80px;
+    border-radius: 8px;
+    border: darkgray solid 4px;
+    font-size: 36px;
 }
 .button {
-    width: 60px;
-    background-color: gray;
+    width: 80px;
+    background-color: darkgray;
     border-width: 1px;
+    color: white;
 }
 .button:hover {
     background-color: white;
+    color: darkgray;
+    border-color: lightgray;
 }
 #interval-input {
-
+    width: 100px;
+    text-align: center;
+    margin: 20px
 }
